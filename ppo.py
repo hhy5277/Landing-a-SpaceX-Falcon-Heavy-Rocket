@@ -42,7 +42,7 @@ time_horizon = 2048
 # keep-checkpoints=<n>     How many model checkpoints to keep [default: 5].
 keep_checkpoints = 5
 # load                     Whether to load the model or randomly initialize [default: False].
-load_model = True
+load_model = False
 # run-path=<path>          The sub-directory name for model and summary statistics.
 summary_path = './PPO_summary'
 model_path = './models'
@@ -51,7 +51,7 @@ summary_freq = buffer_size * 5
 # save-freq=<n>            Frequency at which to save model [default: 50000].
 save_freq = summary_freq
 # train                    Whether to train model, or only run inference [default: False].
-train_model = True
+train_model = False
 # render environment to display progress
 render = True
 # save recordings of episodes
